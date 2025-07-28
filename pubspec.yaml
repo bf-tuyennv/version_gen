@@ -1,21 +1,16 @@
 name: version_gen
 
 description: The Dart code generator for your packages version.
-version: 1.0.1
-homepage: https://github.com/wasabeef/version_gen
-repository: https://github.com/wasabeef/version_gen
-documentation: https://github.com/wasabeef/version_gen
-issue_tracker: https://github.com/wasabeef/version_gen/issues
+version: 2.0.1
+homepage: https://github.com/bf-tuyennv/version_gen
+repository: https://github.com/bf-tuyennv/version_gen
+documentation: https://github.com/bf-tuyennv/version_gen
+issue_tracker: https://github.com/bf-tuyennv/version_gen/issues
 
 environment:
-  sdk: '>=2.12.0 <3.0.0'
+  sdk: '>=3.2.1 <4.0.0'
 
 dependencies:
-  build: '>=2.0.0 <3.0.0'
-  yaml: '>=3.0.0 <4.0.0'
-  path: '>=1.8.0 <2.0.0'
-
-dev_dependencies:
-  test: '>=1.16.0 <2.0.0'
-  flutter_lints: '>=1.0.4 <2.0.0'
-  build_test: '>=2.0.0 <3.0.0'
+  build: ^3.0.0
+  path: ^1.8.0
+  yaml: ^3.0.0
